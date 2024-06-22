@@ -8,9 +8,9 @@
 **简单部署即可在国内轻松使用原滋原味的 Microsoft Copilot 的几乎全部功能，聊天，笔记本，插件，图像生成，分享等等..**
 
 
-![335075014-0ca073cb-f6b8-47ff-befd-8876399a2b3e](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/7d7b54f0-1298-4094-9764-156eb77ad709)
-![屏幕截图 2024-06-11 150121](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/c547568b-1bc3-4a3a-bb8f-be50d8a8c403)
-![336297043-308f7113-e5b0-4d6c-a958-ef67639323f8](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/1a2571f5-1512-4ef7-9f92-0ccee08b6bd7)
+![335075014-0ca073cb-f6b8-47ff-befd-8876399a2b3e](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/7d7b54f0-1298-4094-9764-156eb77ad709)
+![屏幕截图 2024-06-11 150121](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/c547568b-1bc3-4a3a-bb8f-be50d8a8c403)
+![336297043-308f7113-e5b0-4d6c-a958-ef67639323f8](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/1a2571f5-1512-4ef7-9f92-0ccee08b6bd7)
 
 
 
@@ -51,21 +51,21 @@
 	
 - 1.点击登录按钮
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/4c926bfe-8e7c-4336-a1d1-95bb46c32b44)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/4c926bfe-8e7c-4336-a1d1-95bb46c32b44)
 
 - 2.输入微软账号
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/79ca77a0-e5d2-4f06-972d-8cb56aebe561)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/79ca77a0-e5d2-4f06-972d-8cb56aebe561)
 
 - 3.输入密码
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/cc67c302-2d60-43c5-84ac-b85a05801624)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/cc67c302-2d60-43c5-84ac-b85a05801624)
 
 
 - 4.完成登录
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/0b3dcf6e-144a-48b1-9160-f9dad3cda40c)
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/510ab517-9fc5-4816-bd80-2702040923cc)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/0b3dcf6e-144a-48b1-9160-f9dad3cda40c)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/510ab517-9fc5-4816-bd80-2702040923cc)
 
 </details>
 
@@ -75,22 +75,22 @@
 
 - 1.在[bing](bing.com)中登录微软账号。
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/0ca08266-f3e2-4ed5-bbc7-eef3982734dc)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/0ca08266-f3e2-4ed5-bbc7-eef3982734dc)
 
 - 2.按F12打开开发者工具执行以下javascript脚本。会输出用于登录的脚本，将其复制。
 
 ``` javascript
 console.log(`((c)=>c.split(/; ?/).map((t)=>{const index = t.indexOf("=");return [t.substring(0,index),t.substring(index+1)]}).forEach((kv)=>{cookieStore.set(kv[0],kv[1])}))("${document.cookie}");`);
 ```
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/f9a0c93d-a4d8-4a78-b2d9-7809218bb0c5)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/f9a0c93d-a4d8-4a78-b2d9-7809218bb0c5)
 
 - 3.打开自己部署的代理网站，按F12执行刚才复制的脚本。
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/c95d6e30-f941-4290-9901-d98b6b7b5bbb)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/c95d6e30-f941-4290-9901-d98b6b7b5bbb)
 
 - 4.刷新自己部署的代理网站，登录成功！
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/6f61f8c7-af65-4155-82bc-c868b264e9e9)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/6f61f8c7-af65-4155-82bc-c868b264e9e9)
 
 </details>
 
@@ -100,16 +100,16 @@ console.log(`((c)=>c.split(/; ?/).map((t)=>{const index = t.indexOf("=");return 
 
 1.Fork此仓库
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/d61bf46d-7edf-43de-b66c-ede1f8cefed2)
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/3a4be71a-bd12-4938-add8-00998c5ca0aa)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/d61bf46d-7edf-43de-b66c-ede1f8cefed2)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/3a4be71a-bd12-4938-add8-00998c5ca0aa)
 
 2. Page连接到GitHub
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/598dd9c8-05d9-46dc-9c9b-a15da56ff0b5)
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/85286d7c-913e-4550-b867-344e537077b6)
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/c118fe5b-1684-40f5-9b5a-b719d22e17be)
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/78ffc287-f472-4758-8df1-2f14aa5a70a4)
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/cd63bb70-6e6d-435f-8691-0f7734e88605)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/598dd9c8-05d9-46dc-9c9b-a15da56ff0b5)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/85286d7c-913e-4550-b867-344e537077b6)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/c118fe5b-1684-40f5-9b5a-b719d22e17be)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/78ffc287-f472-4758-8df1-2f14aa5a70a4)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/cd63bb70-6e6d-435f-8691-0f7734e88605)
 
 3. 设置设置仓库
 
@@ -117,90 +117,90 @@ console.log(`((c)=>c.split(/; ?/).map((t)=>{const index = t.indexOf("=");return 
 ``` shell
 npm run build-page
 ```
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/02fbfe54-f760-4a02-9946-e57ca3ecb648)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/02fbfe54-f760-4a02-9946-e57ca3ecb648)
 
 之后就完成了。
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/ce012d84-7df9-426b-877e-42e6fe77872e)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/ce012d84-7df9-426b-877e-42e6fe77872e)
 
 
 4. 后续更新
 
 同步 github 仓库后 Workers 和 Pages 会自动同步更新。
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/f26b3753-0963-4a78-8773-7a9b6ebc1199)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/f26b3753-0963-4a78-8773-7a9b6ebc1199)
 </details>
 
 
 ## CloudFlare Worker 部署
 ### 自动部署 (不熟悉开发流程的小伙伴推荐)
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/jianjianai/microsoft-copilot-porxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cyj20142932/microsoft-copilot-porxy)
 <details>
 <summary>详细教学，点击展开</summary>
 
 	
 1. 点击这个部署按钮
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/jianjianai/microsoft-copilot-porxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cyj20142932/microsoft-copilot-porxy)
 
 2. 在打开的页面点击`Authorize Workers`
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/038878d6-99b1-494d-a5a1-9c0a39c30c27)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/038878d6-99b1-494d-a5a1-9c0a39c30c27)
 
 3. 如果有 Cloudflare 账号则点击 `I have an account` 如果没有则点击 `Create account` 去创建一个。
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/1d6c1272-1d48-4120-9181-0eaf137851a9)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/1d6c1272-1d48-4120-9181-0eaf137851a9)
 
 4. 去复制账户id 
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/f22c5e02-0742-4222-8e91-7104756de804)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/f22c5e02-0742-4222-8e91-7104756de804)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/2125bfe9-d8cd-414d-b929-a39769454233)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/2125bfe9-d8cd-414d-b929-a39769454233)
 
 5. 去创建APIKEY
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/6835fea6-7dc9-4520-b927-91e42e7a945d)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/6835fea6-7dc9-4520-b927-91e42e7a945d)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/93a2069e-b302-47e7-b9dd-75d8ac356e29)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/93a2069e-b302-47e7-b9dd-75d8ac356e29)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/595d8bcf-fb07-405b-b8dc-97f0a012dc13)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/595d8bcf-fb07-405b-b8dc-97f0a012dc13)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/c2635a88-90f0-4721-aaa9-7dbd0cb8cd3a)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/c2635a88-90f0-4721-aaa9-7dbd0cb8cd3a)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/448e3422-1fef-4e08-91f5-e8ce8f6b7056)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/448e3422-1fef-4e08-91f5-e8ce8f6b7056)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/d0b31bf6-8f69-430f-843a-ff8d3113820d)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/d0b31bf6-8f69-430f-843a-ff8d3113820d)
 
 5. 连接账户
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/8909bd89-10dc-4c3d-8250-eea9b2e5f71e)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/8909bd89-10dc-4c3d-8250-eea9b2e5f71e)
 
 6. Fork repository
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/08761a46-4a74-4c98-b7b7-36dea356068a)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/08761a46-4a74-4c98-b7b7-36dea356068a)
 
 8. 启用 GitHub Actions
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/657b6ff3-fc35-4a6e-b62a-a504f6b2f8e5)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/657b6ff3-fc35-4a6e-b62a-a504f6b2f8e5)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/1d725360-332c-4d01-adc0-0c2ab2761dc2)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/1d725360-332c-4d01-adc0-0c2ab2761dc2)
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/c43605a8-338d-485c-bb39-e3f9c87d91f5)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/c43605a8-338d-485c-bb39-e3f9c87d91f5)
 
 9. 部署
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/fe4fc988-3693-4283-a087-7f31ecd6ca0d)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/fe4fc988-3693-4283-a087-7f31ecd6ca0d)
 
 10. 成功
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/f1557d7f-0a12-4622-87ab-6236f0bbad67)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/f1557d7f-0a12-4622-87ab-6236f0bbad67)
 
 11. 管理页面出现新的 Workers 和 Pages 后续可以进行其他设置。
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/98a0b65b-0019-4cad-b744-1d9454d8d4e7)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/98a0b65b-0019-4cad-b744-1d9454d8d4e7)
 
 12. 添加自定义域
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/a4595828-d79d-48c8-81df-c16304941c91)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/a4595828-d79d-48c8-81df-c16304941c91)
 
 
 > **默认的 `.workers.dev` 国内已被限制访问，需要使用自定义域才可正常访问。** 
@@ -214,7 +214,7 @@ npm run build-page
 
 同步 github 仓库后 Workers 和 Pages 会自动同步更新。
 
-![image](https://github.com/jianjianai/microsoft-copilot-porxy/assets/59829816/f26b3753-0963-4a78-8773-7a9b6ebc1199)
+![image](https://github.com/cyj20142932/microsoft-copilot-porxy/assets/59829816/f26b3753-0963-4a78-8773-7a9b6ebc1199)
 
 
 </details>
@@ -234,7 +234,7 @@ npm run build-page
 ### 命令
 - 1.下载源代码
 ``` shell
-git clone https://github.com/jianjianai/microsoft-copilot-porxy
+git clone https://github.com/cyj20142932/microsoft-copilot-porxy
 ```
 - 2.进入源代码目录
 ``` shell
